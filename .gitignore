@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments
+.env
+.venv/
+venv/
+
+# Large/generated artifacts
+models/
+finetuned_models/
+checkpoints/
+wandb/
+output/
+output_new/
+logs/
+local_model_cache/
+
+# Local datasets. See data/README.md for expected formats.
+data/alpaca_dataset/
+data/beavertail_dataset/
+data/natural_label/
+data/*.json
+data/*.jsonl
+
+# OS/editor noise
+.DS_Store
+*.swp
